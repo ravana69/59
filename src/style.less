@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&display=swap');
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    cursor: grab;
+    background: black;
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font: 20vh/1 'Big Shoulders Stencil Display', cursive;
+    color: white;
+    text-shadow: 0 0 1px black;
+    padding: 1vmin;
+    width: min-content;
+    text-transform: capitalize;
+}
+
+ul {
+    position: fixed;
+    top: 80vh;
+    left: 0;
+    padding: 2vmin;
+    font: 4vmin monospace;
+    color: white;
+    text-shadow: 0 0 1px black;
+    display: grid;
+    place-content: start end;
+    a {
+        color: inherit;
+    }
+    li:first-of-type {
+        font-size: 6vmin;
+    }
+}

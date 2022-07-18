@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0nPKA.ttf) format('truetype');
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  cursor: -webkit-grab;
+  cursor: grab;
+  background: black;
+}
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font: 20vh/1 'Big Shoulders Stencil Display', cursive;
+  color: white;
+  text-shadow: 0 0 1px black;
+  padding: 1vmin;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  text-transform: capitalize;
+}
+ul {
+  position: fixed;
+  top: 80vh;
+  left: 0;
+  padding: 2vmin;
+  font: 4vmin monospace;
+  color: white;
+  text-shadow: 0 0 1px black;
+  display: grid;
+  place-content: start end;
+}
+ul a {
+  color: inherit;
+}
+ul li:first-of-type {
+  font-size: 6vmin;
+}
